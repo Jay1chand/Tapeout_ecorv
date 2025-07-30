@@ -1,0 +1,54 @@
+// Cleaned Header — Only include options and definitions
+#ifdef DRC_TYPE CHIP
+	#define CHIP
+	#define selected_type
+#endif
+#ifdef DRC_TYPE BLOCK
+	#define BLOCK
+	#define selected_type
+#endif
+#ifndef selected_type
+	#define CHIP
+#endif
+#ifdef DRC_VOLTAGE 1.8V/3V
+	#define 3V
+	#define selected_voltage
+#endif
+#ifdef DRC_VOLTAGE 1.8V/5V
+	#define 5V
+	#define selected_voltage
+#endif
+#ifdef DRC_VOLTAGE 3.3V_only
+	#define 3.3V_only
+	#define selected_voltage
+#endif
+#ifdef DRC_VOLTAGE 5V_only
+	#define 5V_only
+	#define selected_voltage
+#endif
+
+// Required Options (based on your setup)
+#define DRC_TYPE CHIP
+#define DRC_VOLTAGE 1.8V/5V
+#define 4M1L 
+#define 5V
+#define GRID0005
+#define ESD_IO
+#define DUMMY
+
+// Optional memory-related rules
+//#define BIT_CELL_SLA
+//#define BIT_CELL_SLAD
+
+// Base rule deck include (essential)
+INCLUDE "/home/mukul_work/Desktop/jay/sclpdkv3/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/t.00_00_01_scr/DRC_TS18SL_SCL_CALIBRE"
+
+// Optional includes (uncomment if using memory macros)
+#ifdef BIT_CELL_SLA
+  INCLUDE "/home/mukul_work/Desktop/jay/sclpdkv3/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/t.00_00_01_scr/DRC_TS18SLA_CALIBRE"
+#endif
+
+#ifdef BIT_CELL_SLAD
+  INCLUDE "/home/mukul_work/Desktop/jay/sclpdkv3/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/t.00_00_01_scr/DRC_TS18SLAD_CALIBRE"
+#endif
+

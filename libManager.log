@@ -1,0 +1,58 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 03/31/2021 15:41 (sjfdcl1031) $
+\o Sub version:		sub-version  s184 
+\o Arguments:		-unmapped -mpssession virtuoso10561 -mpshost nsdcs.iiti.ac.in 
+\o Working Directory:	nsdcs.iiti.ac.in:/home/mukul_work/Desktop/jay/risc_4/physicalverification
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/mukul_work/Desktop/jay/risc_4/physicalverification") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/mukul_work/Desktop/jay/risc_4/physicalverification/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(50 70 602 491))
+\a cdsLibManager->libListBox->value = "cpu"
+\a cdsLibManager->libLineEdit->value = "cpu"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "CPU"
+\a cdsLibManager->cellLineEdit->value = "CPU"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 41 11 2 "layout")
+\a cdsLibManager->FileOpenButton->value = t
+\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cpu"
+\a cdsLibManager->libLineEdit->value = "cpu"
+\a cdsLibManager->cellListBox->value = "CPU"
+\a cdsLibManager->cellLineEdit->value = "CPU"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(50 63 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(50 70 602 491))
+\a nrResizeWindow(cdsLibManager list(50 63 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(50 70 602 491))

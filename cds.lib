@@ -1,0 +1,5 @@
+SOFTINCLUDE /opt/cadence/IC618/share/cdssetup/cds.lib
+DEFINE ts018_scl_prim /home/mukul_work/Desktop/jay/sclpdkv3/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/amslibs/cds_oa/cdslibs/ts18scl/devices/ts018_oa_compana_4M1L/rev2.0/ref_libs/ts018_scl_prim
+
+DEFINE cpu /home/mukul_work/Desktop/jay/risc_4/physicalverification/cpu
+DEFINE avTech /opt/cadence/ASSURA41/tools.lnx86/assura/etc/avtech/avTech

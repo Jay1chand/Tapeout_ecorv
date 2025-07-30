@@ -1,0 +1,55 @@
+// In order to run as stand alone (Not using SCL customization) you must define metal combination and select which layers to run on
+// For metal combination -
+// #define <one of the below metal combination>
+// STd top metal:
+//	4M1L,5M1L,6M1L
+// Thick 2um Aluminum top metal
+//	4M1T,5M1T,6M1T
+// Thick 2.8um Aluminum top metal
+//	4M1T3,5M1T3,6M1T3
+// layer selection options:
+// #define ThickM_gen
+// #define MT3_gen
+// #define MT_gen
+// #define M5_gen
+// #define M4_gen
+// #define M3_gen
+// #define M2_gen
+// #define M1_gen
+// #define AA_gen
+// #define GC_gen
+
+
+// The following lines May need to be uncommented , depending on run mode (Calibre Interactive/Include/command line or other ).
+// ---- Select Process Stack ----
+#define 6M1L
+
+// ---- Select Metal Layers to Enable Dummy Fill On ----
+#define M1_gen
+#define M2_gen
+#define M3_gen
+#define M4_gen
+#define M5_gen
+#define MT_gen
+#define AA_gen
+#define GC_gen
+
+// Input GDS/Cellname/System Definition .
+   LAYOUT PATH "/home/mukul_work/Desktop/jay/risc_15ns/physical_verification/DummyFill/cpu_seal_si.gds"
+   LAYOUT PRIMARY "cpu_seal_si"
+   LAYOUT SYSTEM GDSII
+
+// Output Database/report 
+   DRC SUMMARY REPORT "cpu_dummy_summary" REPLACE HIER
+   DRC RESULTS DATABASE "cpu_seal_si_dummy.gds" GDSII // _dummy 
+
+
+   DRC MAXIMUM RESULTS ALL
+   DRC MAXIMUM VERTEX ALL
+   DRC CELL NAME YES CELL SPACE XFORM
+   DRC ICSTATION YES
+  
+
+
+INCLUDE /home/mukul_work/Desktop/jay/risc/cpu_SealRing_DummyFill/si-numb_seal-ring_dummy-insertion_flow/DummyFill/DUMMYFILL_TS18SL_SCL_CALIBRE
+
