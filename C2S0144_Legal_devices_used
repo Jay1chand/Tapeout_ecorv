@@ -1,0 +1,23 @@
+Legal devices used:LVT transistor
+
+MOSFET models
+
+    NH
+
+Diode models
+
+    P3
+
+Resistor models
+
+    (none explicitly modeled — only value-based resistors found)
+
+Capacitor models
+
+    (none explicitly modeled — only value-based capacitors found)
+
+Subcircuit cells
+
+    subil_pngatebuff_ESD
+
+    subil_pngate2buff_ESD

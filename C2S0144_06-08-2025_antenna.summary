@@ -1,0 +1,105 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Wed Aug  6 16:50:28 2025
+Calibre Version:           v2022.4_37.20    Fri Dec 2 17:41:13 PST 2022
+Rule File Pathname:        _DRC.rules_
+Rule File Title:           SCL Antenna Check ver.00_00_01
+Layout System:             GDS
+Layout Path(s):            C2S0144.gds
+Layout Primary Cell:       C2S0144
+Current Directory:         /home/tapeout/ecorv/ecorvpj/work_libs/tapeout/cds
+User Name:                 tapeout
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      C2S0144.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       C2S0144.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+ACUTE angle on layer GC at location (0.52,3.87) in cell bufbdf.
+ACUTE angle on layer GC at location (1.82,3.92) in cell bufbdf.
+ACUTE angle on layer GC at location (0.46,3.93) in cell bufbdf.
+ACUTE angle on layer GC at location (0.82,3.87) in cell bufbdf.
+ACUTE angle on layer GC at location (1.76,3.98) in cell bufbdf.
+ACUTE angle on layer GC at location (2.12,3.92) in cell bufbdf.
+ACUTE angle on layer GC at location (0.76,3.93) in cell bufbdf.
+ACUTE angle on layer GC at location (2.06,3.98) in cell bufbdf.
+ACUTE angle on layer M2 at location (64.11,0.99) in cell subil_pngatebuff.
+ACUTE angle on layer M2 at location (64.11,0.99) in cell subil_pngatebuff_ESD122.
+ACUTE angle on layer M2 at location (64.11,0.99) in cell subil_pngatebuff_ESD1.
+ACUTE angle on layer AA at location (28.73,325.56) in cell subil_midconer2.
+ACUTE angle on layer AA at location (34.43,317.94) in cell subil_midconer2.
+ACUTE angle on layer AA at location (36.86,315.64) in cell subil_midconer2.
+ACUTE angle on layer M3 at location (35.88,332.87) in cell subil_midconer2.
+ACUTE angle on layer MT at location (10.58,346.34) in cell subil_midconer2.
+ACUTE angle on layer MT at location (26.42,324.48) in cell subil_midconer2.
+ACUTE angle on layer M1 at location (9.29,8.6) in cell char_l0.
+SKEW edge on layer M1 from location (4.37,4.1) to location (8.855,7.37) in cell char_l0.
+SKEW edge on layer M1 from location (9.29,8.6) to location (4.81,5.34) in cell char_l0.
+ACUTE angle on layer M2 at location (9.29,8.6) in cell char_l0.
+SKEW edge on layer M2 from location (4.37,4.1) to location (8.855,7.37) in cell char_l0.
+SKEW edge on layer M2 from location (9.29,8.6) to location (4.81,5.34) in cell char_l0.
+ACUTE angle on layer M3 at location (9.29,8.6) in cell char_l0.
+SKEW edge on layer M3 from location (4.37,4.1) to location (8.855,7.37) in cell char_l0.
+SKEW edge on layer M3 from location (9.29,8.6) to location (4.81,5.34) in cell char_l0.
+ACUTE angle on layer MT at location (9.29,8.6) in cell char_l0.
+SKEW edge on layer MT from location (4.37,4.1) to location (8.855,7.37) in cell char_l0.
+SKEW edge on layer MT from location (9.29,8.6) to location (4.81,5.34) in cell char_l0.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER SPC_stack ... TOTAL Original Geometry Count = 0      (0)
+LAYER CE .......... TOTAL Original Geometry Count = 1      (1)
+LAYER V3i ......... TOTAL Original Geometry Count = 16000  (1478075)
+LAYER M4mim ....... TOTAL Original Geometry Count = 0      (0)
+LAYER VTi ......... TOTAL Original Geometry Count = 44517  (1228771)
+LAYER AA .......... TOTAL Original Geometry Count = 895    (628031)
+LAYER GC .......... TOTAL Original Geometry Count = 790    (362858)
+LAYER CS .......... TOTAL Original Geometry Count = 22945  (3990282)
+LAYER HV .......... TOTAL Original Geometry Count = 62     (6798)
+LAYER M1 .......... TOTAL Original Geometry Count = 34184  (1104900)
+LAYER V2 .......... TOTAL Original Geometry Count = 10728  (1567329)
+LAYER M2 .......... TOTAL Original Geometry Count = 107617 (270082)
+LAYER M3 .......... TOTAL Original Geometry Count = 42975  (142740)
+LAYER MT .......... TOTAL Original Geometry Count = 4219   (40717)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK AN.GC.1 ....... TOTAL Result Count = 0 (0)
+RULECHECK AN.CS.1 ....... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.1.M1 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.2.M1 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.VIA.1.V2 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.VIA.2.V2 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.1.M2 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.2.M2 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.VIA.1.V3 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.VIA.2.V3 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.1.M3 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.2.M3 ... TOTAL Result Count = 0 (0)
+RULECHECK AN.VIA.1.VT ... TOTAL Result Count = 0 (0)
+RULECHECK AN.VIA.2.VT ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.1.MT ... TOTAL Result Count = 0 (0)
+RULECHECK AN.MTL.2.MT ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  14
+TOTAL REAL Time:                 16
+TOTAL Original Layer Geometries: 284933 (10820584)
+TOTAL DRC RuleChecks Executed:   16
+TOTAL DRC Results Generated:     0 (0)
