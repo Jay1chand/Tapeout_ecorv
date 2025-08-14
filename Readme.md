@@ -38,9 +38,13 @@ Worked using PDK files provided by CDAC. Used 4 metal layer combinations<br>
 Designed RTL source files in Verilog (version 2001) <br>
 Tools used : xcelium, cadence genus, innovus, virtuoso, conformal LEC, Jasper gold, Sim vision, cadence calibre. <br>
 Technology: SCLPDKV3 <br>
+
 Performed RTL analysis, clock domain crossing checks, reset crossings in Jasper gold <br>
+
 Performed simulation in Sim vision <br>
-Made a uniformly distributed suitable IO PAD planning using the inputs and outputs. <br>
+
+Made a uniformly distributed suitable IO PAD planning using the inputs and outputs. (Reference it from CPU.io) <br>
+
 Performed synthesis in cadence genus using IO pads,  power pads, time constraints and RTL scripts. <br>
 
 Performed Post synthesis Logic Equivalence checks on the generated synthesis netlist. <br>
