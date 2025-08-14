@@ -1,6 +1,6 @@
-ECO RV
+# ECO RV
 
-Introduction:
+### Introduction:
 It is a RISC-V CPU
 This is a 32-bit 5-stage pipelined CPU that supports basic instructions and some vector arithmetic.
 It supports Hazard detection too.
@@ -22,17 +22,17 @@ o	VSUB (vecotr subtraction)
 o	VSM (vector scalar multiplication)
 o	VDP (vector dot product)
 
-Technology:
+### Technology:
 All of the work is done on 180nm technology node provided by CDAC PDK SCLPDKV3 no files of the PDK are revealed to protect confidentiality.
 
-Application:
+### Application:
 Provides a base for exploring custom RISC‑V extensions, instruction scheduling, hazard detection, and forwarding. 
 With its vector arithmetic support, it’s suitable for lightweight data-parallel workloads—such as signal processing, simple ML computations, or control systems that benefit from vector ops.
 
-Frequency:  66.6 MHz
+### Frequency:  66.6 MHz
 The standard operating frequency on which the package was simulated on is 66.6MHZ with a Time period of 15ns 
 
-Work flow: 
+### Work flow: 
 Worked using PDK files provided by CDAC. Used 4 metal layer combinations 
 Designed RTL source files in Verilog (version 2001) 
 Tools used : xcelium, cadence genus, innovus, virtuoso, conformal LEC, Jasper gold, Sim vision, cadence calibre. 
