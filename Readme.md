@@ -55,7 +55,10 @@ Continued with Tape out by creating and importing standard cell libraries into c
 Inserted the design cell, seal ring and the silicon number provided by CDAC into the GXL layout completing the design.
 Performed a Calibre DRC and antenna checks pre dummy insertion on the design to check the proper alignment of seal ring and bond pads. 
 Continued on to dummy insertion on the layout to finally complete the tape out, Then proceeded to re run DRC checks.
-Finally completed the DRC, Antenna checks to submit the design in the attached folder.
+Finally completed the DRC, Antenna and LVS checks to submit the design in the attached folder.
+
+#### Reference:
+The files are in C2S0144_06_08_2025.tar.gz folder for reference. The GDS file is too large to upload it in a regular file format. The gds is tapeout worthy as all the necessary DRC, Antenna, LVS and SPICE simulations are succesfully performed.
 
 ## Submissions:
 Completed the workflow in both 4 metal layer node and 6 metal layer node
