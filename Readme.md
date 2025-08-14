@@ -34,7 +34,7 @@ With its vector arithmetic support, it’s suitable for lightweight data-paralle
 The standard operating frequency on which the package was simulated on is 66.6MHZ with a Time period of 15ns 
 
 ### Work flow: 
-Worked using PDK files provided by CDAC. Used 4 metal layer combinations 
+Worked using PDK files provided by CDAC. Used 4 metal layer combinations<br> 
 Designed RTL source files in Verilog (version 2001) 
 Tools used : xcelium, cadence genus, innovus, virtuoso, conformal LEC, Jasper gold, Sim vision, cadence calibre. 
 Technology: SCLPDKV3
