@@ -1,4 +1,5 @@
 # ECO RV
+A digital design fabrication right from FRONT END RTL to the tapeout
 
 ### Introduction:
 It is a RISC-V CPU
